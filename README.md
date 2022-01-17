@@ -7,17 +7,17 @@ Running Instructions
     
 - Open linux terminal in the current directory
 
-a) To run P program
+a) To run P (Producer) program
     
     >  make p
 
-b) To run C program 
+b) To run C (Consumer) program 
     
     >  make c 
 
 - This will give us our desired output on the terminal and will also print if  system calls executed successfully or not.
 
-- Run
+c) Run
     
     > make clean
 
