@@ -18,8 +18,10 @@ b) To run C program
 - This will give us our desired output on the terminal and will also print if  system calls executed successfully or not.
 
 - Run
+    
+    > make clean
 
-    > make clean in current directory to clean the executable file of our .c file
+- It will clean the executable file of our .c file
 
 
 Logic
