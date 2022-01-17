@@ -1,0 +1,15 @@
+*** /home/kern/build/linux-5.14.5/arch/x86/entry/syscalls/syscall_64.tbl	Sat Dec 25 04:22:34 2021
+--- /home/kern/build/stock_kernel/arch/x86/entry/syscalls/syscall_64.tbl	Tue Nov 23 05:10:49 2021
+***************
+*** 369,378 ****
+  445	common	landlock_add_rule	sys_landlock_add_rule
+  446	common	landlock_restrict_self	sys_landlock_restrict_self
+  447	common	memfd_secret		sys_memfd_secret
+- 448	common	kernel_2d_memcpy	sys_kernel_2d_memcpy
+- 449	common	writer  sys_writer
+- 450	common	reader	sys_reader
+- 451	common	init	sys_init
+  
+  #
+  # Due to a historical design error, certain syscalls are numbered differently
+--- 369,374 ----
