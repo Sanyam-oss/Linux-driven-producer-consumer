@@ -7,9 +7,11 @@ Running Instructions
     
 - Open linux terminal in the current directory
 
-a) To run P program >  'make p'
+a) To run P program
+    >  make p
 
-b) To run C program >  'make c' 
+b) To run C program 
+    >  make c 
 
 - This will give us our desired output on the terminal and will also print if  system calls executed successfully or not.
 
@@ -45,7 +47,7 @@ Logic
 
 12. System calls return -1 in case of any errors, to provide error handling in the P and C programs.
 
-13. TO generate random number we first open the /dev/urandom file in Read only mode and then read 8 bytes which are stored in num variable.
+13. To generate random number we first open the /dev/urandom file in Read only mode and then read 8 bytes which are stored in num variable.
 
 Source files modified :
 -------------------------
