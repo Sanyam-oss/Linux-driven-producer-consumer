@@ -61,7 +61,7 @@ Source files modified :
 2. /home/kern/build/linux-5.14.5/kernel/sys.c
 
 
-Resources Used :
+Reference :
 ----------------
 
 1. https://www.kernel.org/doc/htmldocs/kernel-locking/Examples.html
